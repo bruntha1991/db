@@ -14,6 +14,9 @@ class DemoControllerTest extends WebTestCase
 
         $this->assertGreaterThan(0, $crawler->filter('html:contains("Hello Fabien")')->count());
     }
+    
+    
+    // brunthavan 11.49 
 
     public function testSecureSection()
     {
